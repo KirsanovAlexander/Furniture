@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
+	<meta charset="UTF-8" />
 	<title>Modern Furniture</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -10,7 +10,7 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto&display=swap"
 		rel="stylesheet">
-	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.carousel.min.css" />
 	<link rel="stylesheet" href="css/owl.theme.default.min.css">
 	<!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
 	<link rel="stylesheet" href="css/main.css">
@@ -21,7 +21,7 @@
 	<div class="wrapper">
 		<header class="header">
 			<div class="header__container _container">
-				<a href="" class="header__logo">
+				<a href="№" class="header__logo">
 					<img src="img/Group 1000001377.svg" alt="">
 					<img src="img/mistrium.svg" alt="">
 				</a>
@@ -181,35 +181,35 @@
 					<nav class="furniture__menu">
 						<ul class="menu__type">
 							<li class="menu__elem1">
-								<a href="" class="menu__furniture">
+								<button href="" class="button menu__furniture button_All" data-filter="all">
 									All
-								</a>
+								</button>
 							</li>
 							<li class="menu__elem1">
-								<a href="" class="menu__furniture">
+								<button href="" class="button menu__furniture button_Bed" data-filter="bed">
 									Bed
-								</a>
+								</button>
 							</li>
 							<li class="menu__elem1">
-								<a href="" class="menu__furniture">
+								<button href="" class="button menu__furniture button_Sofa" data-filter="sofa">
 									Sofa
-								</a>
+								</button>
 							</li>
 							<li class="menu__elem1">
-								<a href="" class="menu__furniture">
+								<button href="" class="button menu__furniture button_Chair" data-filter="chair">
 									Chair
-								</a>
+								</button>
 							</li>
 							<li class="">
-								<a href="" class="menu__furniture">
+								<button href="" class="button menu__furniture button_Light" data-filter="light">
 									Light
-								</a>
+								</button>
 							</li>
 					</nav>
 				</div>
-				<div class="chair">
+				<div class="chair__cardss">
 					<div class="chair__container">
-						<div class="chair__card">
+						<div class="chair__card chair">
 							<button class="card__cart">
 								<a href="" class="cart"> Add To Cart</a>
 								<img class="cart__image" src="img/Cart.svg" alt="Cart">
@@ -225,14 +225,22 @@
 									$95.00
 								</div>
 							</div>
-							<img class="chair__number" src="img/Chair11.jpg" alt="Chair1">
+							<img class="chair__number" id="myImg" src="img/Chair11.jpg" alt="Ramen Stool">
+							<!-- <img id="myImg" src="img_snow.jpg" alt="Snow" style="width:100%;max-width:300px"> -->
+
+							<!-- The Modal -->
+							<div id="myModal" class="modal">
+								<span class="close">×</span>
+								<img class="modal-content" id="img01">
+								<div id="caption"></div>
+							</div>
 						</div>
 
 
 
 
 
-						<div class="chair__card">
+						<div class="chair__card chair">
 							<button class="card__cart">
 								<a href="" class="cart"> Add To Cart</a>
 								<img class="cart__image" src="img/Cart.svg" alt="Cart">
@@ -248,13 +256,18 @@
 									$55.00
 								</div>
 							</div>
-							<img class="chair__number" src="img/Chair22.jpg" alt="Chair2">
+							<img class="chair__number" id="myImg2" src="img/Chair22.jpg" alt="Flexform">
+							<div id="myModal2" class="modal2">
+								<span class="close2">×</span>
+								<img class="modal-content" id="img02">
+								<div id="caption">Flexform</div>
+							</div>
 						</div>
 
 
 
 
-						<div class="chair__card">
+						<div class="chair__card  light">
 							<button class="card__cart">
 								<a href="" class="cart"> Add To Cart</a>
 								<img class="cart__image" src="img/Cart.svg" alt="Cart">
@@ -270,11 +283,16 @@
 									$97.00
 								</div>
 							</div>
-							<img class="chair__number" src="img/Chair33.jpg" alt="Chair3">
+							<img class="chair__number" src="img/Chair33.jpg" alt="Porada" id="myImg3">
+							<div id="myModal3" class="modal">
+								<span class="close3">×</span>
+								<img class="modal-content" id="img03">
+								<div id="caption">Porada</div>
+							</div>
 						</div>
 
 
-						<div class="chair__card">
+						<div class="chair__card sofa">
 							<button class="card__cart">
 								<a href="" class="cart"> Add To Cart</a>
 								<img class="cart__image" src="img/Cart.svg" alt="Cart">
@@ -290,11 +308,16 @@
 									$55.00
 								</div>
 							</div>
-							<img class="chair__number" src="img/Chair44.jpg" alt="Chair4">
+							<img class="chair__number" src="img/Chair44.jpg" alt="Taknion" id="myImg4">
+							<div id="myModal4" class="modal4">
+								<span class="close4">×</span>
+								<img class="modal-content" id="img04">
+								<div id="caption">Taknion</div>
+							</div>
 						</div>
 
 
-						<div class="chair__card">
+						<div class="chair__card chair">
 							<button class="card__cart">
 								<a href="" class="cart"> Add To Cart</a>
 								<img class="cart__image" src="img/Cart.svg" alt="Cart">
@@ -310,11 +333,16 @@
 									$95.00
 								</div>
 							</div>
-							<img class="chair__number" src="img/Chair55.jpg" alt="Chair5">
+							<img class="chair__number" src="img/Chair55.jpg" alt="Amora" id="myImg5">
+							<div id="myModal5" class="modal5">
+								<span class="close5">×</span>
+								<img class="modal-content" id="img05">
+								<div id="caption">Amora</div>
+							</div>
 						</div>
 
 
-						<div class="chair__card">
+						<div class="chair__card bed">
 							<button class="card__cart">
 								<a href="" class="cart"> Add To Cart</a>
 								<img class="cart__image" src="img/Cart.svg" alt="Cart">
@@ -330,7 +358,12 @@
 									$45.00
 								</div>
 							</div>
-							<img class="chair__number" src="img/Chair66.jpg" alt="Chair6">
+							<img class="chair__number" src="img/Chair66.jpg" alt="Liquid Contract" id="myImg6">
+							<div id="myModal6" class="modal6">
+								<span class="close6">×</span>
+								<img class="modal-content" id="img06">
+								<div id="caption">Liquid Contract</div>
+							</div>
 						</div>
 					</div>
 
@@ -370,29 +403,29 @@
 					<nav class="furniture__menu">
 						<ul class="menu__type">
 							<li class="menu__elem1">
-								<a href="" class="menu__furniture">
+								<button href="" class="menu__furniture">
 									All
-								</a>
+								</button>
 							</li>
 							<li class="menu__elem1">
-								<a href="" class="menu__furniture">
+								<button href="" class="menu__furniture">
 									Bed
-								</a>
+								</button>
 							</li>
 							<li class="menu__elem1">
-								<a href="" class="menu__furniture">
+								<button href="" class="menu__furniture">
 									Sofa
-								</a>
+								</button>
 							</li>
 							<li class="menu__elem1">
-								<a href="" class="menu__furniture">
+								<button href="" class="menu__furniture">
 									Chair
-								</a>
+								</button>
 							</li>
 							<li class="">
-								<a href="" class="menu__furniture">
+								<button href="" class="menu__furniture">
 									Light
-								</a>
+								</button>
 							</li>
 					</nav>
 				</div>
@@ -866,10 +899,8 @@
 					Copyright © 2021. arshakir.com
 				</div>
 			</div>
-
 		</footer>
 	</div>
-
 
 	<script src="js/jquery-3.4.1.min.js"></script>
 	<script src="js/owl.carousel.min.js"></script>
